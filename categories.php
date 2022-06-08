@@ -130,7 +130,7 @@
                     </div>
                 </aside>
                 <content class="content">
-                    <div class="content__title"><?= $title ?></div></div>
+                    <div class="content__title"><?= $title ?></div>
                     <div class="content__body content__body_three">
                         <?php foreach ($child_categories AS $key => $value): ?>
                             <?php if ($value['id'] !== $value['parent_id']): ?>
